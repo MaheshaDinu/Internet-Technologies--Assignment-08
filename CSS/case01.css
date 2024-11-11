@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.queue-container {
+    overflow: hidden;
+    display: flex;
+    
+    
+    position: relative;
+}
+
+.queue {
+    display: flex;
+    position: relative;
+    left: 0;
+}
+.queue-container > img{
+    height: 150px;
+}
+
+.queue-item {
+    display: flex;
+    align-items: start;
+    font-family: sans-serif;
+    color: aqua;
+    font-size: 1.4vw;
+    
+    margin-right: 10px;
+    
+}
+.queue-item > img{
+    height: 150px;
+    width: 200px;
+}
+
+button {
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: rgb(24, 201, 192);
+    box-shadow: 2px 2px 2px gray;
+}
